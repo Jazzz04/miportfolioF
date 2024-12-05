@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Aca hice el menu.*/
+header{
+    background-color: rgb(139, 101, 175);
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50%;
+   color: aliceblue; 
+}
+
+.menu{
+    height: 8vh;
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.menu a{
+   text-decoration: none; 
+   color: aliceblue;
+
+}
+
+/*Aca empiezo hero y el h1*/
+.hero{
+    background-color: rgb(223, 201, 222);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    
+}
+.perfil{
+    height: 250px;
+    border-radius: 52px;
+    
+}
+.hola{
+align-items: center;
+}
+.section1{
+    background-color: rgb(240, 169, 221);
+    padding: 20px 40px 20px 40px;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+.section2{
+    padding: 20px 40px 20px 40px;
+    height: 80vh;
+    justify-content: space-around;
+    background-color: white
+   
+
+}
+
+.servicios{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+}
+.imgservicios{
+    height: 200px;
+    border-radius: 30px;
+    align-items: center;
+    margin: 10px;
+}
+.bordediv1{
+      border: 2px solid rgb(144, 28, 211);
+      height: 300px;
+      width: 350px;
+      border-radius: 40px;
+      text-align: center;
+      justify-content: center;
+     
+    
+}
+
+h2{
+    padding: 30px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+.section3{
+    padding: 20px 40px 20px 40px;
+    height: 80vh;
+    justify-content: space-around;
+    background-color: rgb(240, 174, 236);
+}
+
+.Trabajos{
+    padding: 60px 40px 20px 60px;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.bordediv2{
+    border: 2px solid rgb(247, 240, 240);
+    height: 300px;
+    width: 350px;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    background-color: #edc7f8;
+  
+}
+
+.imgtrabajos{
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.section4{
+    background-color: rgb(139, 101, 175);
+    padding: 20px 50px 20px 50px;
+    height: 40vh;
+   
+}
+
+.iconos{
+    padding: 20px 50px 20px 50px;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;   
+}
+p{
+    padding: 0px 50px ;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 40px;
+    padding: 0 0 0 50px;
+}
+
+footer p{
+    padding: 0px 50px 10px 50px;
+    background-color: rgb(139, 101, 175);
+    font-size: 15px;
+}
